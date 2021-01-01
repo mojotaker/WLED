@@ -52,23 +52,23 @@
 // multipin mod configuration:
 
 // How many strips will be connected. currently up to 8 strips is possible.
-#define NUM_STRIPS 2
+#define NUM_STRIPS 4
 
 // What pins to use:
-#define STRIP1_PIN 2 // manually specify all pins here.  2  is default LEDPIN for esp32dev boards.
-#define STRIP2_PIN 13
-#define STRIP3_PIN 12
-#define STRIP4_PIN 14
+#define STRIP1_PIN 16// manually specify all pins here.  2  is default LEDPIN for esp32dev boards.
+#define STRIP2_PIN 03
+#define STRIP3_PIN 01
+#define STRIP4_PIN 26
 #define STRIP5_PIN 27
-#define STRIP6_PIN 26
+#define STRIP6_PIN 23
 #define STRIP7_PIN 25
 #define STRIP8_PIN 33
 
 // How many LEDs are on each strip:
-#define STRIP1_LEDCOUNT 18
-#define STRIP2_LEDCOUNT 18
-#define STRIP3_LEDCOUNT 18
-#define STRIP4_LEDCOUNT 18
+#define STRIP1_LEDCOUNT 170
+#define STRIP2_LEDCOUNT 165
+#define STRIP3_LEDCOUNT 273
+#define STRIP4_LEDCOUNT 172
 #define STRIP5_LEDCOUNT 18
 #define STRIP6_LEDCOUNT 18
 #define STRIP7_LEDCOUNT 18
